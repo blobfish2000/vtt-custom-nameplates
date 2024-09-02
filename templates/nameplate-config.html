@@ -6,7 +6,7 @@
         document.querySelector('#custom-nameplates-edit').style.maxHeight="560px";
         
         document.querySelector("input[name='globalFontSize']").addEventListener('change',(event) => {
-            if (event.srcElement.value > 5 && event.srcElement.value < 72){
+            if (event.srcElement.value > 5 && event.srcElement.value < 1000){
                 document.querySelector("#nameplate-error").style.display='none'
             }else{
                 document.querySelector("#nameplate-error").style.display=''
